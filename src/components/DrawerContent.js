@@ -34,7 +34,6 @@ import { SignInContext } from '../contexts/authContext';
 export default function DrawerContent(props){
 
     const {dispatchSignedIn} = useContext(SignInContext)
-
 async function signOut(){
        
     try{

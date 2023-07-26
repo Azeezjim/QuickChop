@@ -144,7 +144,7 @@ async function signUp(values){
                 </View>
                 <View style ={styles.view19}>
                     <View style ={styles.view20}>
-                        <Text style ={styles.text6}>Already have an account with XpressFood ?</Text>
+                        <Text style ={styles.text6}>Already have an account with QuickChop ?</Text>
                     </View>
                     <View style ={styles.view21}>
                         <Button 
