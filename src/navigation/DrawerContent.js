@@ -31,10 +31,12 @@ export default function DrawerNavigator() {
                             name="home"
                             color={focussed ? '#7cc' : colors.grey2}
                             size={size}
+
                         />
                     )
                 }}
             />
+
 
             <Drawer.Screen
                 name="Business consoleScreen"

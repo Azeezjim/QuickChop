@@ -15,6 +15,7 @@ import SearchScreen from "../screens/SearchScreeen";
 import MyAccountScreen from "../screens/MyAccountScreen";
 import MyOrdersScreen from "../screens/MyOrdersScreen";
 import MenuProductScreen from "../screens/MenuProductScreen";
+import RestaurantHomeScreen from "../screens/RestaurantHomeScreen";
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -129,7 +130,7 @@ function MyTabs({ navigation, route }) {
 
       <Tab.Screen
         name="MyOrdersScreen"
-        component={MyOrdersScreen}
+        component={RestaurantHomeScreen}
         options={{
           tabBarLabel: "My Orders",
           tabBarIcon: ({ color, size }) => (
