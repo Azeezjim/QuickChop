@@ -1,7 +1,6 @@
 import React from 'react'
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
-
 import {colors} from '../global/styles'
 import {Icon} from 'react-native-elements'
 import HomeScreen from '../screens/HomeScreen';
@@ -12,7 +11,6 @@ import { ClientStack } from './clientStack';
 
 
 const ClientTabs = createBottomTabNavigator();
-
 
 export default function RootClientTabs(){
 
@@ -38,7 +36,6 @@ export default function RootClientTabs(){
                         )
                     }
                 }
-
             />
 
 
@@ -61,8 +58,6 @@ export default function RootClientTabs(){
 
             />
 
-
-
         <ClientTabs.Screen 
                 name ="MyOrdersScreen"
                 component ={MyOrdersScreen}
@@ -79,10 +74,7 @@ export default function RootClientTabs(){
                         )
                     }
                 }
-
             />
-
-
 
         <ClientTabs.Screen 
                 name ="MyAccount"
@@ -100,12 +92,7 @@ export default function RootClientTabs(){
                         )
                     }
                 }
-
             />
-
-
-   
-
 
         </ClientTabs.Navigator>
     )
