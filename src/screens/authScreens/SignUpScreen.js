@@ -5,12 +5,12 @@ import Header from '../../components/Header'
 import { Formik } from 'formik';
 import {Icon,Button} from 'react-native-elements'
 import * as Animatable from 'react-native-animatable';
-import auth from '@react-native-firebase/auth';
+// import auth from '@react-native-firebase/auth';
 
 const initialValues = {phone_number:'',name:"",family_name:"",password:"",email:'',username:''}
 
 
-const SignUpScreen = ({navigation}) => {
+export default function SignUpScreen ({navigation}) {
 
 const[passwordFocussed, setPassordFocussed] = useState(false)
 const[passwordBlured,setPasswordBlured] = useState(false)
@@ -18,24 +18,24 @@ const[passwordBlured,setPasswordBlured] = useState(false)
 async function signUp(values){
   const {email,password} = values
 
-  try{
-    await auth().createUserWithEmailAndPassword(email,password)
-    console.log("USER ACCOUNT CREATED")
-  }catch(error){
-    if(error.code === 'auth/email-already-in-use'){
-      Alert.alert(
-        'That email address is already inuse'
-      )
-    }
-    if(error.code === 'auth/invalid-email'){
-      Alert.alert(
-        'That email address is invalid'
-      )
-    }
-    else{
-      Alert.alert(error.code)
-    }
-  }
+  // try{
+  //   await auth().createUserWithEmailAndPassword(email,password)
+  //   console.log("USER ACCOUNT CREATED")
+  // }catch(error){
+  //   if(error.code === 'auth/email-already-in-use'){
+  //     Alert.alert(
+  //       'That email address is already inuse'
+  //     )
+  //   }
+  //   if(error.code === 'auth/invalid-email'){
+  //     Alert.alert(
+  //       'That email address is invalid'
+  //     )
+  //   }
+  //   else{
+  //     Alert.alert(error.code)
+  //   }
+  // }
 }
 
     return (
@@ -160,7 +160,7 @@ async function signUp(values){
     )
 }
 
-export default SignUpScreen
+// export default SignUpScreen
 
 const styles = StyleSheet.create({
 

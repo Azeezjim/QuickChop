@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "quick-chop",
-    "slug": "quick-chop",
+    "name": "quickchop",
+    "slug": "quickchop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,12 +17,16 @@
     "ios": {
       "supportsTablet": true
     },
+    
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.devazeezjim.quickchop"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "web": {
       "favicon": "./assets/favicon.png"

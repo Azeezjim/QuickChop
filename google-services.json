@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308787426380",
+    "project_id": "quick-chop-40c7e",
+    "storage_bucket": "quick-chop-40c7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308787426380:android:446af99a0fd002648470e9",
+        "android_client_info": {
+          "package_name": "com.devazeezjim.quickchop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308787426380-j3bdfvcn2sq10tllrs7tvalr8itg2872.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4MMG25L450t45sLPzgPIfUXKrFeIrYSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308787426380-j3bdfvcn2sq10tllrs7tvalr8itg2872.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

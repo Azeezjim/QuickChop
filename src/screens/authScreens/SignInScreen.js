@@ -13,7 +13,7 @@ import { Icon, Button, SocialIcon } from "react-native-elements";
 import { Formik } from "formik";
 
 import Header from "../../components/Header";
-import auth from "@react-native-firebase/auth";
+// import auth from "@react-native-firebase/auth";
 import { SignInContext } from "../../contexts/authContext";
 
 export default function SignInScreen({ navigation }) {
